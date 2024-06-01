@@ -45,7 +45,7 @@ export default function App() {
             <Text>12 Tasks</Text>
           </View>
           <Image
-            style={{ width: 140, height: 110 }}
+            style={{ width: 100, height: 100 }}
             source={require("./assets/man-running.png")}
           />
         </View>
@@ -55,7 +55,7 @@ export default function App() {
             <Text>2 Tasks</Text>
           </View>
           <Image
-            style={{ width: 140, height: 110 }}
+            style={{ width: 100, height: 100 }}
             source={require("./assets/studying.png")}
           />
         </View>
@@ -65,7 +65,7 @@ export default function App() {
             <Text>4 Tasks</Text>
           </View>
           <Image
-            style={{ width: 140, height: 110 }}
+            style={{ width: 100, height: 100 }}
             source={require("./assets/coding.png")}
           />
         </View>
@@ -75,18 +75,20 @@ export default function App() {
             <Text>4 Tasks</Text>
           </View>
           <Image
-            style={{ width: 140, height: 110 }}
+            style={{ width: 100, height: 100 }}
             source={require("./assets/food.webp")}
           />
         </View>
         <View style={styles.item}>
           <View>
-            <Text style={{ fontWeight: "bold", fontSize: 18 }}>Code</Text>
+            <Text style={{ fontWeight: "bold", fontSize: 18 }}>
+              Play video games
+            </Text>
             <Text>4 Tasks</Text>
           </View>
           <Image
-            style={{ width: 140, height: 110 }}
-            source={require("./assets/coding.png")}
+            style={{ width: 100, height: 100 }}
+            source={require("./assets/joystick.png")}
           />
         </View>
         <View style={styles.item}>
@@ -102,7 +104,7 @@ export default function App() {
             <Text>4 Tasks</Text>
           </View>
           <Image
-            style={{ width: 140, height: 110 }}
+            style={{ width: 100, height: 100 }}
             source={require("./assets/cooking.png")}
           />
         </View>
@@ -122,7 +124,7 @@ export default function App() {
             <Text>4 Tasks</Text>
           </View>
           <Image
-            style={{ width: 140, height: 110 }}
+            style={{ width: 100, height: 100 }}
             source={require("./assets/videoconference.png")}
           />
         </View>
@@ -267,7 +269,7 @@ const styles = StyleSheet.create({
     marginTop: 9,
     padding: 15,
     backgroundColor: "#FBF9F7",
-    width: 180,
+    width: 160,
   },
   ScrollView: {
     maxHeight: 190,
